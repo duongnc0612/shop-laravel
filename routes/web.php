@@ -40,5 +40,6 @@ Route::get('/delete-category-product/{category_product_id}','CategoryProduct@del
 
 
 
+
 Route::post('/save-category-product','CategoryProduct@save_category_product');
 Route::post('/update-category-product/{category_product_id}','CategoryProduct@update_category_product');
